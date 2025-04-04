@@ -53,7 +53,7 @@ npm run build
 
 ## Windows users
 
-To make it easier for `Windows` users there is a `.devcontainer` directory for use with [GitHub Codespaces](https://github.com/features/codespaces). Fork `kits-dna` and then from the forked repository code tab:
+To make it easier for `Windows` users there is a `.devcontainer` directory for use with [GitHub Codespaces](https://github.com/features/codespaces). Fork `kits-dna` or **Use this template** and then from the forked repository code tab:
 
 1. Click the green **Code** button
 2. Select **Codespaces**
@@ -65,6 +65,39 @@ To make it easier for `Windows` users there is a `.devcontainer` directory for u
 
 Source code licensed under [**GPL v3**](https://www.gnu.org/licenses/gpl-3.0.html).
 
-### Content
+## Features
 
-All **content** is copyright.
+- Personal website
+  - Homepage
+  - About me
+  - Contact me
+- Blog
+  - Post list
+  - Tags
+  - Tags list
+  - prev / next post
+- Accessibility statement
+- Privacy policy
+- Responsive design
+- Search (powered by Pagefind)
+- Dark mode
+  - Auto
+  - Manual
+- 404 page
+- Content security policy in production
+- Analytics in production (user needs to analytics script add to head)
+- Search Engine Optimisation
+- GitHub Actions (optional VS Code extensions)
+  - Lighthouse
+  - Markdownlint
+  - Vale (prose linter)
+- Sitemap
+- RSS feed
+- Syntax highlighting
+- Eleventy navigation
+- Eleventy image
+- Eleventy font awesome
+- Markdown it anchor
+- Markdown it emoji
+- Markdown it GitHub alerts
+- SASS

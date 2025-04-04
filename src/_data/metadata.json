@@ -1,12 +1,12 @@
 {
-    "name": "My name",
-    "title": "",
-    "description": "",
-    "url": "",
+    "name": "Joe Bloggs",
+    "title": "My site",
+    "description": "My site",
+    "url": "https://example.com",
     "lang": "en",
     "author": {
-        "name": "My name",
-        "email": "",
+        "name": "Joe Bloggs",
+        "email": "joe.blogs@example.com",
         "twitter": ""
     },
     "github": {
