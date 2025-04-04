@@ -100,3 +100,4 @@ Source code licensed under [**GPL v3**](https://www.gnu.org/licenses/gpl-3.0.htm
 - Markdown it emoji
 - Markdown it GitHub alerts
 - SASS
+- Responsive design
