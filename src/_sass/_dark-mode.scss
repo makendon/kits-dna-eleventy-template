@@ -1,0 +1,20 @@
+/* Dark mode SCSS from _base and _layout */
+
+/* Remove or comment out all @media (prefers-color-scheme: dark) queries */
+/* Replace with a single system dark mode check that can be overridden */
+
+@use 'variables' as vars;
+@use 'mixins';
+
+
+// System preference dark mode
+html[data-theme="system"] {
+  @media (prefers-color-scheme: dark) {
+    @include mixins.darkTheme;
+  }
+}
+
+// Manual override
+html[data-theme="dark"] {
+  @include mixins.darkTheme;
+}

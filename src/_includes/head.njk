@@ -1,0 +1,39 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Content Security Policy in production -->
+  {% if templateProd.environment == 'production' %}
+  {% include "csp.njk" %}
+  {% endif %}
+
+  <!-- SEO -->
+  {% include "seo.njk" %}
+
+  <!-- Mastodon verification -->
+  <link rel="me" href="https://mastodon.social/@makendon"/>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/assets/favicons-emoji/favicon.ico">
+
+  <!-- Image preloading -->
+  
+  <!-- CSS -->
+  {% css %}{% include "dist/css/styles.css" %}{% endcss %}
+  <style>{% getBundle "css" %}</style>
+
+  <!-- Font Awesome -->
+  {% getBundle "fontawesome" %}
+  
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "{{ metadata.title }}",
+      "url": "{{ metadata.url }}"
+    }
+  </script>
+
+</head>

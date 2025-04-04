@@ -1,0 +1,24 @@
+name: Vale CI
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches-ignore:
+      - main
+    paths:
+      - '**.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  checks: write
+
+jobs:
+  vale:
+    name: vale
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: errata-ai/vale-action@v2.1.1
+        continue-on-error: true

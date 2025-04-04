@@ -1,0 +1,24 @@
+{
+    "name": "My name",
+    "title": "",
+    "description": "",
+    "url": "",
+    "lang": "en",
+    "author": {
+        "name": "My name",
+        "email": "",
+        "twitter": ""
+    },
+    "github": {
+        "repo_name": "",
+        "repo_url": "",
+        "repo_owner": "",
+        "repo_owner_url": ""
+    },
+    "linkedin": {
+        "url": ""
+    },
+    "mastodon": {
+        "url": ""
+    }
+}

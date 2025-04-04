@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ metadata.lang or 'en' }}" data-theme="system">
+  {% include "head.njk" %}
+  <body>
+    {% include "header.njk" %}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content | safe }}
+      </div>
+    </main>
+    {% include "footer.njk" %}
+
+    <!-- Include analytics in production -->
+    {% if kitsDna.environment == 'production' %}
+    {% include "simple-analytics.njk" %}
+    {% endif %}
+
+    <!-- Include the dark-mode.js file -->
+    <script src="/assets/js/dark-mode.js" defer></script>
+  </body>
+</html>
