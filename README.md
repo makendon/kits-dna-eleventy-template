@@ -1,4 +1,4 @@
-# kits-dna
+# kits-dna-eleventy-template
 
 `kits-dna-eleventy-template` is a content free template of `kits-dna` aka **kitfrance.com**. It uses the **Eleventy** static site generator. 11ty.
 
