@@ -2,16 +2,18 @@
 layout: home.njk
 permalink: /
 ---
-<section class="homepage">
-  <div>
+<section>
+  <div class="homepage">
+    <div>
      <h1>kits-dna-eleventy-template</h1>
      <h2>Make this your own.</h2>
-     <div class="btn-container">
-      <a href="/about" class="btn">About me</a>
-      <a href="/blog" class="btn">Blog</a>
     </div>
-  </div>
-  <div id="homeImage">
-    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmxvZ3xlbnwwfHwwfHx8Mg%3D%3D" alt="Blogging" loading="eager">
+    <div>
+      <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmxvZ3xlbnwwfHwwfHx8Mg%3D%3D" alt="Blogging" loading="eager">
+    </div>
+    <div class="homepage-button">
+      <a href="/about" role="button">About me</a>
+      <a href="/blog" role="button" class="contrast">Blog</a>
+    </div>
   </div>
 </section>
