@@ -76,6 +76,7 @@ Source code licensed under [**GPL v3**](https://www.gnu.org/licenses/gpl-3.0.htm
   - Tags
   - Tags list
   - prev / next post
+  - Back to top
 - Accessibility statement
 - Privacy policy
 - Responsive design
@@ -85,12 +86,13 @@ Source code licensed under [**GPL v3**](https://www.gnu.org/licenses/gpl-3.0.htm
   - Manual
 - 404 page
 - Content security policy in production
-- Analytics in production (user needs to analytics script add to head)
+- Analytics in production (user needs to add analytics script to head)
 - Search Engine Optimisation
 - GitHub Actions (optional VS Code extensions)
   - Lighthouse
   - Markdownlint
   - Vale (prose linter)
+  - ESLint
 - Sitemap
 - RSS feed
 - Syntax highlighting
@@ -100,4 +102,6 @@ Source code licensed under [**GPL v3**](https://www.gnu.org/licenses/gpl-3.0.htm
 - Markdown it anchor
 - Markdown it emoji
 - Markdown it GitHub alerts
-- SASS
+- Pico CSS (with SASS)
+- Figtree font
+- Font Awesome icons via Eleventy plugin
